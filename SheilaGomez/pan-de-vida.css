@@ -1,0 +1,125 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: powderblue;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  h1, h2, h3 {
+    color: black;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  /* Center content */
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Table styles */
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Link styles */
+  a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Image row */
+  .row {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .column img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Form styles */
+  form {
+    display: block;
+    margin: 30px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  form input[type="text"],
+  form textarea {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  h3.contact {
+    color: blue;
+    margin-bottom: 0;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
